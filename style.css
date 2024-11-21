@@ -8,7 +8,9 @@
 header {
   width: 100%;
 }
-
+#descripton-footer{
+  margin-top: 10px;
+}
 .header-content {
   display: flex;
   align-items: center;
@@ -95,6 +97,12 @@ i {
   .header-button {
     display: none;
   }
+  #descripton-footer{
+    text-align: center;
+  }
+  #btn-whatsapp{
+    bottom: 60px;
+  }
 }
 .container {
   max-width: 1440px;
@@ -110,7 +118,7 @@ i {
   content: "";
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/bg.svg");
+  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1),  #06121e),  url("../assets/bg.svg");
   left: 0;
   top: 0;
   width: 100%;
