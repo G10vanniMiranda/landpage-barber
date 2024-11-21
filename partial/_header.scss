@@ -1,0 +1,109 @@
+
+header {
+      width: 100%;
+}
+
+.header-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+i {
+      color: $white-normal;
+}
+
+.header-icons {
+      display: flex;
+      gap: 14px;
+}
+
+.header-icons a:hover{
+      i {
+            animation: translateY .8s infinite alternate;
+            color: $red-light;
+      }
+}
+
+@keyframes translateY {
+      from {
+            transform: translateY(0) scale(1);
+      }
+      to {
+            transform: translateY(-8px) scale(1.1);
+      }
+}
+
+
+.header-button {
+      border: 1px solid $white-normal;
+      padding: 8px 24px;
+      border-radius: 4px;
+      color: $white-normal;
+      background-color: transparent;
+      transition: background-color .8s;
+}
+
+.header-button:hover {
+      border: 1px solid $red-light;
+      background-color: $red-light;
+}
+// |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+.header-logo{
+      width: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 14px;
+      position: relative;
+      animation: flutuar 1.6s ease-in-out infinite alternate;
+}
+
+#barbeiro{
+      left: 20px;
+      top: 250px;
+      position: fixed;
+      width: 100px;
+      border-radius: 20px;
+      display: none;
+}
+#barbeiroSumir{
+      left: 50px;
+      top: 20px;
+      position: fixed;
+      width: 80%;
+      border-radius: 20px;
+}
+
+@keyframes flutuar {
+      0% {
+            top: 0;
+      }
+      100% {
+            top: 30px;
+      }
+}
+
+@media screen and (max-width: 768px) {
+      .header-content {
+            width: 100%;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+
+            i {
+                  margin-top: 16px;
+                  font-size: 34px;
+            }
+      }
+      
+      .header-logo img {
+            width: 160px;
+            margin-top: 46px;
+      }
+
+      .header-button {
+            display: none;
+      }
+}
