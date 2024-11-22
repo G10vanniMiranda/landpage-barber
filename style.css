@@ -99,6 +99,7 @@ i {
   }
   #descripton-footer{
     text-align: center;
+    margin-top: 20px;
   }
   #btn-whatsapp{
     bottom: 60px;
@@ -358,6 +359,10 @@ i {
 @media screen and (max-width: 768px) {
   .btn-whatsapp img {
     max-width: 64px;
+  }
+  #btn-whatsapp{
+    bottom: 100px;
+    right: 20px;
   }
 }
 body {
