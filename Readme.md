@@ -4,4 +4,4 @@
 
 * Link do Vídeo - Parte 02: https://www.youtube.com/watch?v=qeF7ZN5TegY
 
-* https://sites.appbarber.com.br/
+* * https://sites.appbarber.com.br/
