@@ -8,9 +8,7 @@
 header {
   width: 100%;
 }
-#descripton-footer{
-  margin-top: 10px;
-}
+
 .header-content {
   display: flex;
   align-items: center;
@@ -64,11 +62,20 @@ i {
 }
 
 #barbeiro {
+  left: 20px;
+  top: 250px;
+  position: fixed;
+  width: 100px;
+  border-radius: 20px;
   display: none;
 }
 
 #barbeiroSumir {
-  display: none;
+  left: 50px;
+  top: 20px;
+  position: fixed;
+  width: 80%;
+  border-radius: 20px;
 }
 
 @keyframes flutuar {
@@ -97,13 +104,6 @@ i {
   .header-button {
     display: none;
   }
-  #descripton-footer{
-    text-align: center;
-    margin-top: 20px;
-  }
-  #btn-whatsapp{
-    bottom: 60px;
-  }
 }
 .container {
   max-width: 1440px;
@@ -119,7 +119,7 @@ i {
   content: "";
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1),  #06121e),  url("../assets/bg.svg");
+  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/bg.svg");
   left: 0;
   top: 0;
   width: 100%;
@@ -322,6 +322,11 @@ i {
   color: #FFF;
 }
 
+p {
+  margin-top: 18px;
+  text-align: center;
+}
+
 .btn-whatsapp {
   position: fixed;
   bottom: 5px;
@@ -359,10 +364,6 @@ i {
 @media screen and (max-width: 768px) {
   .btn-whatsapp img {
     max-width: 64px;
-  }
-  #btn-whatsapp{
-    bottom: 100px;
-    right: 20px;
   }
 }
 body {
