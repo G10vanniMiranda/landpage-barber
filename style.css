@@ -214,6 +214,7 @@ i {
 }
 
 .about-description h2 {
+  text-align: center;
   font-size: 38px;
   margin-bottom: 24px;
 }
